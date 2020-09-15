@@ -338,6 +338,62 @@ justify-content: center;
 	background: url(images/perfect-blend.jpg) center no-repeat;
 	background-size: cover;
 }
+.contact_us{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: linear-gradient(rgbaa(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5));
+	background-image: url(images/contact.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: var(--body-font);
+}
+.contact-title{
+	margin-top: 100px;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+.contact-h1{
+	font-size: 32px;
+	line-height: 10px;
+}
+.contact-h2{
+	font-size: 16px;
+	margin-top: 50px;
+}
+#contact-form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #000;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+input{
+	height: 45px;
+
+}
+form .submit
+{
+	background: #ff5722;
+	border-color: transparent;
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+form .submit:hover{
+	background-color: #f44336;
+	cursor: pointer;
+}
 
 
 footer{
