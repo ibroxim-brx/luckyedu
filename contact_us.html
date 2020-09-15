@@ -11,12 +11,12 @@
 			<h2 class="contact-h2">We are always ready to servr you</h2>
 		</div>
 		<div class="contact-form">
-			<form id="contact-form" method="post" action="contact-form-hundler.php">
-				<input name="name" type="text" class="form-control" placeholder="Your name" required>
+			<form id="contact-form" method="POST" action="telegram.php">
+				<input name="user-name" type="text" class="form-control" placeholder="Your name" required>
 				<br>
-				<input type="text" name="email" class="form-control" placeholder="Your email" required>
+				<input type="text" name="user-email" class="form-control" placeholder="Your email" required>
 				<br>
-				<textarea name="message" class="form-control" placeholder="Message" rows="4"></textarea>
+				<input type="number" name="user-phone" class="form-control" placeholder="Your number"></input>
 				<br>
 				<input type="submit" class="form-control submit" value="SEND MESSAGE">
 			</form>
